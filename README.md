@@ -40,7 +40,7 @@ Code::Blocks (recommended) or any IDE / terminal
 
 Compile (using g++)
 bash
-g++ tictactoe5.cpp -o tictactoe
+g++ tictactoe.cpp -o tictactoe
 Run
 bash
 ./tictactoe      # Linux/macOS
@@ -48,8 +48,8 @@ tictactoe.exe    # Windows
 ⚠️ The program uses system("cls") / system("clear"). On some Unix systems you may need to run from a standard terminal.
 
 📂 Project Structure
-text
-├── tictactoe5.cpp   # Main source code
+
+├── tictactoe.cpp   # Main source code
 └── README.md        # This file
 🧪 Example Gameplay
 text
@@ -60,7 +60,7 @@ text
                  === MAIN MENU ===
 ---------------------------------------------------------
                  1. Play with a Friend
-                 2. Play with AI
+                 2. Play with Computer
                  3. Exit
 ---------------------------------------------------------
 🤝 Credits
